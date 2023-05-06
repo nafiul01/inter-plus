@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .menu-btn{
+        @apply bg-white hover:bg-gray-100 text-tColor font-medium px-6 py-2 rounded-3xl;
+    }
+
+    .menu-icons{
+        @apply rounded-[50%] hover:bg-gray-100 px-4 py-3;
+    }
+
+    .slider-arrow{
+        @apply border-2 border-gray-300 rounded-[50%] py-[12px] px-[13px];
+    }
+
+    .primary-btn{
+        @apply bg-green-200 hover:bg-green-300 text-tColor font-medium px-6 py-2 rounded-3xl;
+    }
+
+    .menu-list{
+        @apply flex gap-3 items-center font-medium text-sm text-gray-600 px-4 py-3 rounded;
+    }
+
+    .menu-list:hover{
+        @apply bg-secondaryColor text-white;
+    }
+
+    .menu-list>svg{
+        @apply fill-none stroke-gray-500 stroke-[1.5px];
+    }
+
+    .menu-list:hover>svg{
+        @apply stroke-white;
+    }
+    
+    .profile-table th{
+        @apply text-start text-sm bg-slate-200 px-5 py-3;
+    }
+
+    .profile-table td{
+        @apply text-start text-sm border-b-[1px] px-5 py-3;
+    }
+
+    .menu-branch a{
+        @apply text-tColor hover:text-green-700 hover:font-semibold;
+    }
+}
