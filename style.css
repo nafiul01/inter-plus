@@ -2,7 +2,7 @@ select {
 
     /* styling */
     background-color: white;
-    border: thin solid blue;
+    border: 2px solid #e5e7eb;
     border-radius: 4px;
     display: inline-block;
     font: inherit;
@@ -17,6 +17,10 @@ select {
     box-sizing: border-box;
     -webkit-appearance: none;
     -moz-appearance: none;
+  }
+
+  .form-list select{
+    padding: 10px 15px 10px 16px;
   }
   
 
@@ -50,7 +54,7 @@ select {
       5px 5px,
       1px 1.5em;
     background-repeat: no-repeat;
-    border-color: green;
+    border-color: #e5e7eb;
     outline: 0;
   }
 

@@ -46,4 +46,8 @@
     .menu-branch a{
         @apply text-tColor hover:text-green-700 hover:font-semibold;
     }
+
+    .form-list input{
+        @apply w-full border-2 first-line:appearance-none rounded px-4 py-3 leading-tight focus:outline-none;
+    }
 }
